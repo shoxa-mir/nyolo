@@ -1,0 +1,6 @@
+*.dll filter=lfs diff=lfs merge=lfs -text
+third_party/opencv-4.11.0/bin/opencv_world4110.dll filter=lfs diff=lfs merge=lfs -text
+third_party/onnxruntime-gpu-1.15.1/lib/win-x64/onnxruntime_providers_cuda.dll filter=lfs diff=lfs merge=lfs -text
+third_party/onnxruntime-gpu-1.15.1/lib/linux-x64/libonnxruntime_providers_cuda.so filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
